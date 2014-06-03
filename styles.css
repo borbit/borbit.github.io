@@ -1,16 +1,24 @@
 body {
-  margin: 20px;
   font-family: 'Roboto';
   font-size: 14px;
 }
 
-div {
-  float: right;
-  width: 410px;
-  height: 410px;
+.card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -15em 0 0 -30em;
+  height: 31em;
+  width: 60em;
 }
 
-figure {
+.blend {
+  float: right;
+  height: 31em;
+  width: 31em;
+}
+
+.blend figure {
   float: left;
   margin: 0;
   width: 50%;
@@ -21,15 +29,15 @@ figure {
   background-size: cover;
 }
 
-figure:nth-child(1) {
+.blend figure:nth-child(1) {
   background-color: red;
 }
-figure:nth-child(2) {
+.blend figure:nth-child(2) {
   background-color: blue;
 }
-figure:nth-child(3) {
+.blend figure:nth-child(3) {
   background-color: green;
 }
-figure:nth-child(4) {
+.blend figure:nth-child(4) {
   background-color: yellow;
 }
