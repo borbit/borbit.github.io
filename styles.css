@@ -1,4 +1,35 @@
 body {
+  margin: 20px;
   font-family: 'Roboto';
   font-size: 14px;
+}
+
+div {
+  float: right;
+  width: 400px;
+  height: 400px;
+}
+
+figure {
+  float: left;
+  margin: 0;
+  width: 50%;
+  height: 50%;
+  background: no-repeat center;
+  background-image: url("photo.jpg");
+  background-blend-mode: luminosity;
+  background-size: cover;
+}
+
+figure:nth-child(1) {
+  background-color: red;
+}
+figure:nth-child(2) {
+  background-color: blue;
+}
+figure:nth-child(3) {
+  background-color: green;
+}
+figure:nth-child(4) {
+  background-color: yellow;
 }
